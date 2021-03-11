@@ -69,9 +69,10 @@ stackNode* BuynewNodeStack(stackDataType x)
 //»Î’ª
 void stackPush(stackNode** head, stackDataType x)
 {
+	
 	stackNode* newEle = BuynewNodeStack(x);
 	newEle->next = *head;
-	*head = newEle;
+	*head = newEle; 
 }
 
 //¥Ú”°
